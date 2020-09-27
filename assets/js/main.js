@@ -50,6 +50,8 @@ document.addEventListener('click', function(e) {
     // console.log(el)
 
     if(el.classList.contains('apagar')) {
-        console.log('apagar clicado');
+        // console.log('apagar clicado');
+        // console.log(el.parentElement)
+        el.parentElement.remove();
     }
 })
